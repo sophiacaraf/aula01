@@ -6,7 +6,7 @@ function adicionarContato(nome, telefone) {
 }
 
 function removerContato(index) {
-    contatos.splice(index, 1); // Remove o contato correto
+    contatos.splice(index, 1); 
     atualizarTela();
 }
 
@@ -51,6 +51,6 @@ function novoContato() {
     }
 }
 
-// Adicionando contatos iniciais
+
 adicionarContato("Maria", "99999-1111");
 adicionarContato("João", "98888-2222");
